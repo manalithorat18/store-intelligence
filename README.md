@@ -52,7 +52,7 @@ CCTV Clips → pipeline/detect.py (YOLOv8n + ByteTrack)
 → data/events.jsonl
 → pipeline/emit.py → POST /events/ingest
 → SQLite database
-→ GET /stores/{id}/metrics|funnel|heatmap|anomalies
+→ GET /stores/{id}/metrics | funnel | heatmap | anomalies
 
 ## North Star Metric
 
