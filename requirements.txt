@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+structlog
+python-dotenv
+pytest
+pytest-cov
+httpx

@@ -1,0 +1,9 @@
+clips/
+data/
+*.db
+*.pt
+__pycache__/
+*.pyc
+.coverage
+venv/
+.pytest_cache/

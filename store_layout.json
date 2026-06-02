@@ -1,0 +1,37 @@
+{
+  "store_id": "STORE_BLR_002",
+  "store_name": "Brigade Bangalore",
+  "open_hours": { "open": "10:00", "close": "22:00" },
+  "cameras": [
+    { "camera_id": "CAM_ENTRY_01", "file": "CAM 1.mp4", "type": "entry_exit" },
+    { "camera_id": "CAM_FLOOR_01", "file": "CAM 2.mp4", "type": "main_floor" },
+    { "camera_id": "CAM_FLOOR_02", "file": "CAM 3.mp4", "type": "main_floor" },
+    { "camera_id": "CAM_FLOOR_03", "file": "CAM 4.mp4", "type": "main_floor" },
+    { "camera_id": "CAM_BILLING_01", "file": "CAM 5.mp4", "type": "billing" }
+  ],
+  "zones": [
+    { "zone_id": "ENTRY_ZONE",    "type": "entry",       "sku_zone": null },
+    { "zone_id": "FOH",           "type": "floor",       "sku_zone": "FLOOR" },
+    { "zone_id": "CASH_COUNTER",  "type": "billing",     "sku_zone": "BILLING" },
+    { "zone_id": "EB_KOREAN",     "type": "brand_shelf", "sku_zone": "SKINCARE" },
+    { "zone_id": "FACE_SHOP",     "type": "brand_shelf", "sku_zone": "SKINCARE" },
+    { "zone_id": "GOOD_VIBES",    "type": "brand_shelf", "sku_zone": "SKINCARE" },
+    { "zone_id": "DERMDOC",       "type": "brand_shelf", "sku_zone": "SKINCARE" },
+    { "zone_id": "MINIMALIST",    "type": "brand_shelf", "sku_zone": "SKINCARE" },
+    { "zone_id": "AQUALOGICA",    "type": "brand_shelf", "sku_zone": "SKINCARE" },
+    { "zone_id": "LAKME_SKIN",    "type": "brand_shelf", "sku_zone": "SKINCARE" },
+    { "zone_id": "ACCESSORIES",   "type": "brand_shelf", "sku_zone": "ACCESSORIES" },
+    { "zone_id": "MAYBELLINE",    "type": "brand_shelf", "sku_zone": "MAKEUP" },
+    { "zone_id": "FACES_CANADA",  "type": "brand_shelf", "sku_zone": "MAKEUP" },
+    { "zone_id": "LAKME_MAKEUP",  "type": "brand_shelf", "sku_zone": "MAKEUP" },
+    { "zone_id": "COLORBAR",      "type": "brand_shelf", "sku_zone": "MAKEUP" },
+    { "zone_id": "SWISS_BEAUTY",  "type": "brand_shelf", "sku_zone": "MAKEUP" },
+    { "zone_id": "RENEE_NY_BAE",  "type": "brand_shelf", "sku_zone": "MAKEUP" },
+    { "zone_id": "ALPS_GOODNESS", "type": "brand_shelf", "sku_zone": "MAKEUP" },
+    { "zone_id": "STREAX",        "type": "brand_shelf", "sku_zone": "HAIRCARE" },
+    { "zone_id": "FRAGRANCE",     "type": "brand_shelf", "sku_zone": "FRAGRANCE" },
+    { "zone_id": "NAIL_UNIT",     "type": "brand_shelf", "sku_zone": "NAILS" },
+    { "zone_id": "MAKEUP_UNIT",   "type": "service",     "sku_zone": "MAKEUP" },
+    { "zone_id": "PMU",           "type": "service",     "sku_zone": "PMU" }
+  ]
+}
