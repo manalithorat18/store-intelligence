@@ -1,5 +1,6 @@
 clips/
-data/
+data/*
+!data/events.jsonl
 *.db
 *.pt
 __pycache__/
