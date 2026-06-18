@@ -94,7 +94,7 @@ YOLOv8n weights (`yolov8n.pt`) are downloaded automatically on first run (~6MB).
 [CAM_FLOOR_01] Processing CAM 2.mp4 ...
 [CAM_FLOOR_01] Done. Events so far: 251
 ...
-✅ Done. 387 events written to data/events.jsonl
+Done. 387 events written to data/events.jsonl
 ```
 
 ### Step 4 — Start the API
